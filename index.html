@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Calculator</title>
+	</head>
+
+	<body>
+		<main>
+			<div class="container">
+				<div class="headers-container">
+					<h1>Calc</h1>
+					<h4>Theme</h4>
+				</div>
+				<div class="theme-container">
+					<input type="radio" class="theme-switcher one" name="theme" checked />
+					<input type="radio" class="theme-switcher two" name="theme" />
+					<input type="radio" class="theme-switcher three" name="theme" />
+				</div>
+
+				<div class="calculator">
+					<section class="screen">
+						<span class="numbers-input">0</span>
+					</section>
+					<section class="keys">
+						<div class="key number seven">7</div>
+						<div class="key number eight">8</div>
+						<div class="key number nine">9</div>
+						<div class="key delete">DEL</div>
+						<div class="key number four">4</div>
+						<div class="key number five">5</div>
+						<div class="key number six">6</div>
+						<div class="key add" data-action="add">+</div>
+						<div class="key number one">1</div>
+						<div class="key number two">2</div>
+						<div class="key number 3">3</div>
+						<div class="key minus" data-action="minus">-</div>
+						<div class="key decimal" data-decimal>.</div>
+						<div class="key number zero">0</div>
+						<div class="key divide" data-action="divide">/</div>
+						<div class="key multiply" data-action="multiply">x</div>
+						<div class="key reset" data-reset>RESET</div>
+						<div class="key equals" data-equals>=</div>
+					</section>
+				</div>
+			</div>
+		</main>
+
+		<script src="script.js"></script>
+	</body>
+</html>
